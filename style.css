@@ -1,0 +1,69 @@
+
+/* remove defalt margin padding*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Set goole font-family*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* first section start*/
+.top_banner{
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 850px;
+    position: relative;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container h1{
+    font-size: 80px;
+    line-height: 120px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.container p{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+.banner_text{
+    padding-left:20%;
+    padding-right:20%;
+    margin-top: 20px;
+}
+.donate_button{
+    color: white;
+    background-image: linear-gradient(45deg, tomato, orange);
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    text-align: center;
+    display:inline-block;
+    margin: 30px 40% 0 40%;   
+}
+.donate_button:hover{
+    background-image: linear-gradient(60deg, orange,tomato, orange);
+    border: .5px solid #fff;
+}
+
+
+/* first section end*/
