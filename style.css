@@ -63,7 +63,6 @@ body{
 }
 .donate_button:hover{
     background-image: linear-gradient(60deg, orange,tomato, orange);
-    border: .5px solid #fff;
 }
 
 
@@ -129,16 +128,6 @@ input[type=number]{
 
 
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /* second section end*/
