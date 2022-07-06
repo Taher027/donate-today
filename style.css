@@ -212,14 +212,14 @@ input[type=number]{
     border-radius: 5px;
 }
 
-/* section four (contribute part one) end*/
 
+/* section four (contribute part one) end*/
 
 /*section five (contribute part two) start*/
 
-
-
-
-
+.box2 img{
+    margin-left: 0px;
+    margin-right: 200px;
+}
 
 /*section five (contribute part two) end*/
