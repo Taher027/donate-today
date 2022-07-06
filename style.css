@@ -25,7 +25,7 @@ body{
     margin: 0 auto;
 }
 .container h1{
-    font-size: 80px;
+    font-size: 65px;
     line-height: 120px;
     font-weight: bolder;
     color: rgb(255, 255, 255);
@@ -225,8 +225,56 @@ input[type=number]{
 
 /*section five (contribute part two) end*/
 
+/* section six (event section) start*/
 
-/*section six (subscription section) start*/
+.event{
+    display: flex;
+    justify-content: space-evenly;
+}
+#event_main_heading h2{
+    font-size: 65px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 100px;
+    text-align: center;
+}
+.event_box{
+    width: 28%;
+    margin-top: 50px;
+    margin-right: 1.5%;
+    margin-left:3%;
+    padding: 50px 30px;
+    box-shadow: 5px 5px 30px #D9D9D9;
+}
+.event_heading{
+    color: black;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: left;
+}
+#event_p{
+    color: gray;
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: left;
+}
+.event_ancor{
+    font-size:30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top:20px;
+    display: inline-block;
+    color: gray;
+}
+
+/* section six (event section) end*/
+
+
+/*section seven (subscription section) start*/
 
 #getupdate_heading{
     padding-top: 25px;
@@ -268,7 +316,7 @@ input[type=email]{
     border-radius: 0 5px 5px 0;
 }
 
-/*section six (subscription section) end*/
+/*section seven (subscription section) end*/
 
 /*footer section start*/
 .footer{
@@ -295,3 +343,5 @@ input[type=email]{
     color: white;
     padding-top: 25px;
 }
+
+/**footer section end/
