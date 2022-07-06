@@ -71,9 +71,12 @@ body{
 
 /* second section start (Donate today)*/
 
-.donate_section{
-    padding-top: 30px;
+.common_padding{
+    padding-top: 50px;
     padding-bottom: 80px;
+}
+
+.donate_section{
     margin-left: 10%;
     margin-right: 10%
 }
@@ -136,8 +139,6 @@ input[type=number]{
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
-    padding-top: 20px;
-    padding-bottom: 80px;
 }
 .donate_plan_box_item{
     padding:70px 50px 70px 50px;
@@ -174,7 +175,7 @@ input[type=number]{
 .contribute_box{
     display: flex;
     padding-top: 50px;
-    padding-bottom:100px;
+    padding-bottom:20px;
 }
 .contribute_content{
     width: 50%;
@@ -223,3 +224,17 @@ input[type=number]{
 }
 
 /*section five (contribute part two) end*/
+
+
+/*section six (subscription section) start*/
+
+#getupdate_heading{
+    padding-top: 25px;
+    color:black;
+}
+#getupdate_text{
+    color:gray;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+/*section six (subscription section) end*/
